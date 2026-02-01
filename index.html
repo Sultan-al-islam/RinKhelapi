@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ঋণ খেলাপিকে থামান</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="game-title">ঋণ খেলাপিকে <span class="version">থামান</span> 🛑</h1>
+
+    <div class="game-container">
+        <div class="hud-header">
+            <div class="score-box">স্কোর: <span id="score">0</span></div>
+            <div class="time-box">সময়: <span id="time">10</span>সে.</div>
+        </div>
+
+        <div id="feedback">ধরেছি!</div>
+
+        <div id="falling-obj">
+            <img src="monsi.png" alt="Rin Khelapi" class="character-img">
+        </div>
+
+        <div id="player">
+            <img src="hasnat.png" alt="Officer" class="character-img">
+        </div>
+
+        <div id="overlay">
+            <h2 id="final-message">ঋণ খেলাপিকে থামান!</h2>
+            <button onclick="startGame()">মিশন শুরু করুন</button>
+        </div>
+    </div>
+
+    <audio id="bg-music" src="bg.mpeg" loop preload="auto"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
