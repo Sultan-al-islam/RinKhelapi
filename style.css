@@ -30,7 +30,7 @@ body {
 
 #player { 
     position: absolute; bottom: 20px; 
-    width: 250px; height: 100px; /* মোবাইলের জন্য সাইজ অ্যাডজাস্ট করা */
+    width: 100px; height: 60px; /* মোবাইলের জন্য সাইজ অ্যাডজাস্ট করা */
     z-index: 15;
 }
 
