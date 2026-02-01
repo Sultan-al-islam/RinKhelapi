@@ -82,7 +82,7 @@ function endGame() {
     bgMusic.pause();
     
     document.getElementById('final-message').innerHTML = 
-        `<span style="color:#4caf50; font-size:1.8rem;">মিশন শেষ!</span><br>
+        `<span style="color:#4caf50; font-size:1.8rem;">ঋণ খেলাপিকে থামাতে সফল!</span><br>
          <span style="font-size:1.4rem;"Score: ${score} </span>`;
     
     overlay.style.display = 'flex';
